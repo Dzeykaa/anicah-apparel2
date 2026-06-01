@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anicah Apparel | Premium Uniforms & Custom Apparel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="container topbar-content">
+        <div class="brand">
+          <div class="brand-mark">A</div>
+          <div>
+            <span class="brand-name">Anicah Apparel</span>
+            <span class="brand-tag">Uniforms. Corporate. Custom.</span>
+          </div>
+        </div>
+        <button class="nav-toggle" aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="#home" class="active">Home</a>
+          <a href="#catalog">Products</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a href="#contact" class="button button-outline">Get a Quote</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Premium Business Uniforms & Custom Apparel</p>
+            <h1>Manufacturing performance-grade uniforms that make every team look professional.</h1>
+            <p class="hero-text">Design, produce, and deliver premium uniforms for schools, corporates, hospitality, and custom brand collections with speed and precision.</p>
+            <div class="hero-actions">
+              <a href="#catalog" class="button button-primary">Explore Catalog</a>
+              <a href="#contact" class="button button-secondary">Request Quote</a>
+            </div>
+            <div class="hero-highlights">
+              <div>
+                <strong>Fast Turnaround</strong>
+                <span>Custom orders ready in 10 days.</span>
+              </div>
+              <div>
+                <strong>Bulk Friendly</strong>
+                <span>Scaled pricing for teams and institutions.</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-card reveal">
+              <div class="card-badge">Featured</div>
+              <img src="https://images.unsplash.com/photo-1520975916904-4f7e2b1dfc5f?auto=format&fit=crop&w=900&q=80" alt="Uniform Showcase" />
+              <div class="card-content">
+                <h3>Corporate uniform set</h3>
+                <p>Durable, tailored designs built for daily business wear.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="search-panel container">
+        <div class="search-bar">
+          <label for="product-search" class="sr-only">Search products</label>
+          <input id="product-search" type="search" placeholder="Search uniforms, custom orders, corporate sets…" />
+          <button id="search-button" class="button button-secondary">Search</button>
+        </div>
+        <div class="trust-panel">
+          <div class="trust-item"><strong>Quality</strong> ISO-grade stitching</div>
+          <div class="trust-item"><strong>Speed</strong> 10-day production</div>
+          <div class="trust-item"><strong>Custom</strong> Branding-ready</div>
+          <div class="trust-item"><strong>Bulk</strong> Volume discounts</div>
+        </div>
+      </section>
+
+      <section id="catalog" class="catalog-section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Featured Collections</p>
+            <h2>Uniforms built for teams, schools, and brands.</h2>
+          </div>
+          <div class="filter-group">
+            <button class="filter-button active" data-filter="all">All</button>
+            <button class="filter-button" data-filter="uniforms">Uniforms</button>
+            <button class="filter-button" data-filter="corporate">Corporate Wear</button>
+            <button class="filter-button" data-filter="custom">Custom Orders</button>
+            <button class="filter-button" data-filter="education">Schoolwear</button>
+          </div>
+        </div>
+
+        <div id="product-grid" class="product-grid">
+          <article class="product-card reveal" data-category="uniforms">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="School Uniforms" />
+            <div class="product-body">
+              <p class="product-tag">School Uniforms</p>
+              <span class="product-badge">Best Seller</span>
+              <h3>Academy Smart Set</h3>
+              <p>Structured polos, classic trousers, and customizable blazer patches.</p>
+              <div class="product-meta">
+                <span>From $28</span>
+                <button class="button button-sm inquiry-button">Order Now</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card reveal" data-category="corporate">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80" alt="Corporate Uniforms" />
+            <div class="product-body">
+              <p class="product-tag">Corporate Wear</p>
+              <h3>Executive Workwear</h3>
+              <p>Minimalist shirts, tailored trousers, and premium fabric options.</p>
+              <div class="product-meta">
+                <span>From $45</span>
+                <button class="button button-sm inquiry-button">Order Now</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card reveal" data-category="custom">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80" alt="Custom Apparel" />
+            <div class="product-body">
+              <p class="product-tag">Custom Orders</p>
+              <h3>Brand Identity Kits</h3>
+              <p>Customizable jackets, tees, and accessories for brand rollout.</p>
+              <div class="product-meta">
+                <span>From $55</span>
+                <button class="button button-sm inquiry-button">Order Now</button>
+              </div>
+            </div>
+          </article>
+          <article class="product-card reveal" data-category="education">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Sports Uniforms" />
+            <div class="product-body">
+              <p class="product-tag">Schoolwear</p>
+              <h3>Sports & Coaching Gear</h3>
+              <p>Performance fabrics, team branding, and comfort-first design.</p>
+              <div class="product-meta">
+                <span>From $32</span>
+                <button class="button button-sm inquiry-button">Order Now</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="featured-section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Best Sellers</p>
+            <h2>Customers trust our premium production line.</h2>
+          </div>
+          <a href="#catalog" class="text-link">View full catalog</a>
+        </div>
+        <div class="featured-grid">
+          <div class="featured-card">
+            <span class="featured-pill">Top Seller</span>
+            <h3>Workwear Essentials</h3>
+            <p>Hardworking fabrics for manufacturing and logistics teams.</p>
+          </div>
+          <div class="featured-card">
+            <span class="featured-pill">Trending</span>
+            <h3>Hospitality Collection</h3>
+            <p>Designed for hotels, restaurants and customer-facing teams.</p>
+          </div>
+          <div class="featured-card">
+            <span class="featured-pill">Custom</span>
+            <h3>Event & Promo Apparel</h3>
+            <p>Branded event wear with fast delivery and flexible MOQ.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services-section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Services</p>
+            <h2>Manufacturing capabilities built for large orders.</h2>
+          </div>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <h3>Custom Design Support</h3>
+            <p>From concept to sample, our design team helps refine your brand uniforms.</p>
+          </article>
+          <article class="service-card">
+            <h3>Bulk Production</h3>
+            <p>High-volume runs with quality checks at every stage to keep deliveries on time.</p>
+          </article>
+          <article class="service-card">
+            <h3>Material Sourcing</h3>
+            <p>Premium fabrics with sustainable alternatives and performance textiles.</p>
+          </article>
+          <article class="service-card">
+            <h3>Worldwide Shipping</h3>
+            <p>Logistics-friendly packaging and delivery coordination for business buyers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="promo-banner">
+        <div class="container promo-inner">
+          <div>
+            <p class="eyebrow">Bulk Order Special</p>
+            <h2>Save up to 20% on orders over 100 units.</h2>
+            <p>Designed for schools, corporates, hospitality providers and event teams.</p>
+          </div>
+          <a href="#contact" class="button button-primary">Start your quote</a>
+        </div>
+      </section>
+
+      <section id="about" class="about-section container">
+        <div class="about-grid">
+          <div>
+            <p class="eyebrow">About Us</p>
+            <h2>Anicah Apparel combines manufacturing strength with polished design.</h2>
+            <p>We produce durable uniforms and custom apparel for organizations that need consistency, quality, and a refined presentation. Every garment is crafted with precision and optimized for brand identity.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <strong>15+</strong>
+              <span>Years in manufacturing</span>
+            </div>
+            <div class="stat-card">
+              <strong>1200+</strong>
+              <span>Completed brand launches</span>
+            </div>
+            <div class="stat-card">
+              <strong>98%</strong>
+              <span>On-time delivery rate</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Testimonials</p>
+            <h2>Trusted by teams across industries.</h2>
+          </div>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <p>“Anicah Apparel made our entire corporate launch seamless. Their production speed and quality are exceptional.”</p>
+            <footer>
+              <strong>Maria N.</strong>
+              <span>HR Director, FinTech</span>
+            </footer>
+          </article>
+          <article class="testimonial-card">
+            <p>“The custom school uniforms are durable and comfortable. Our students and staff love the new look.”</p>
+            <footer>
+              <strong>James P.</strong>
+              <span>School Operations</span>
+            </footer>
+          </article>
+          <article class="testimonial-card">
+            <p>“Great communication and easy ordering process. The bulk discount option helped us stay within budget.”</p>
+            <footer>
+              <strong>Hannah L.</strong>
+              <span>Event Coordinator</span>
+            </footer>
+          </article>
+        </div>
+      </section>
+
+      <section class="upsell-section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">You may also like</p>
+            <h2>Complete your order with packaging & branding add-ons.</h2>
+          </div>
+        </div>
+        <div class="upsell-grid">
+          <article class="upsell-card">
+            <h3>Branded Hangers</h3>
+            <p>Professional display and delivery-ready presentation.</p>
+          </article>
+          <article class="upsell-card">
+            <h3>Presentation Boxes</h3>
+            <p>Premium packaging for executive uniform sets.</p>
+          </article>
+          <article class="upsell-card">
+            <h3>Sample Kits</h3>
+            <p>Fabric swatches and design mockups before final approval.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Get in touch for a tailored quote.</h2>
+          </div>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-form-card">
+            <form class="contact-form">
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Your name" />
+              <label for="company">Company / School</label>
+              <input id="company" type="text" placeholder="Organization name" />
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" />
+              <label for="details">Project details</label>
+              <textarea id="details" rows="5" placeholder="Uniform type, quantity, timeline..."></textarea>
+              <button type="button" class="button button-primary">Send Inquiry</button>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="contact-card">
+              <h3>Our Office</h3>
+              <p>123 Industry Way, Suite 500<br />Metro City, State</p>
+            </div>
+            <div class="contact-card">
+              <h3>Sales & Support</h3>
+              <p>sales@anicahapparel.com<br />+1 (555) 123-4567</p>
+            </div>
+            <div class="contact-card map-placeholder">
+              <span>Map placeholder</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">FAQ</p>
+            <h2>Questions about our process and products.</h2>
+          </div>
+        </div>
+        <div class="faq-grid">
+          <details>
+            <summary>What is the minimum order quantity?</summary>
+            <p>We support custom orders starting from 25 pieces, with bulk pricing available for larger orders.</p>
+          </details>
+          <details>
+            <summary>How long does production take?</summary>
+            <p>Standard lead time is 10 business days after artwork approval. Expedited options are available.</p>
+          </details>
+          <details>
+            <summary>Can I add logos and embroidery?</summary>
+            <p>Yes. We offer embroidery, printing, and heat transfer branding as part of the apparel workflow.</p>
+          </details>
+          <details>
+            <summary>Do you offer international shipping?</summary>
+            <p>Yes. We ship worldwide with logistics support for business orders.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="newsletter-section container">
+        <div class="newsletter-card">
+          <div>
+            <p class="eyebrow">Stay updated</p>
+            <h2>Receive new product launches and bulk order specials.</h2>
+          </div>
+          <form class="newsletter-form">
+            <label for="newsletter-email" class="sr-only">Email address</label>
+            <input id="newsletter-email" type="email" placeholder="Enter your email" />
+            <button type="button" class="button button-primary">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <div class="footer-content">
+        <div>
+          <p class="brand-name">Anicah Apparel</p>
+          <p>Manufacturing professional uniforms for teams worldwide.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#catalog">Products</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2026 Anicah Apparel. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <div class="modal-overlay hidden" id="modal-overlay">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close modal">×</button>
+      <div class="modal-content">
+        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Product detail" />
+        <div>
+          <p class="eyebrow">Product details</p>
+          <h2>Executive Workwear</h2>
+          <p class="modal-description">Tailored executive collection with premium finishes, ideal for brands seeking polished corporate attire.</p>
+          <ul class="detail-list">
+            <li>Premium fabric blend</li>
+            <li>Made-to-order sizing</li>
+            <li>Fast production for bulk orders</li>
+          </ul>
+          <div class="modal-actions">
+            <span class="price-tag">From $45</span>
+            <button class="button button-primary">Add to Inquiry</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
